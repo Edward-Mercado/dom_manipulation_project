@@ -6,7 +6,7 @@ function inject_item(item) {
         <h2 class="market-item__title">${item.title}</h2>
         <div class="thin-horizontal-line"></div>
         <img
-          src=${item.img.src}
+          src=${item.img_src}
           alt=${item.title}
           class="market-item__img"
         />
@@ -23,3 +23,11 @@ function inject_item(item) {
 // make a list of all my stuff
 // title img price
 // loop through the array and then run that
+
+const items = [
+    {
+        "title": "",
+        "price": "",
+        "img_src": "",
+    }
+]
